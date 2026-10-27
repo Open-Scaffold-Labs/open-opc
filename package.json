@@ -1,0 +1,1 @@
+{"name":"open-opc","version":"1.0.0","private":true,"type":"module","description":"Open OPC studio operating workspace","scripts":{"test":"node --test tests/*.test.mjs","start":"node server.mjs"},"devDependencies":{"jsdom":"^26.1.0"},"engines":{"node":">=20"}}
