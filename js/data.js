@@ -62,7 +62,14 @@ export const modules = [
  ['gift-cards','1.0','Multi-vertical gift cards & split-tender liability','Gift card issuance, holiday promo bonus campaigns, split-tender POS redemption, and unearned liability sub-ledger'],
  ['ticketing','1.2','Zero-markup community & venue ticketing','Public-utility ticketing with $0 platform fee, upfront all-in pricing, rotating anti-scalper QR codes, and face-value fan exchange'],
  ['website','1.0','Instant vertical websites & direct booking SEO','Platform-owned website builder, custom domains, SEO schema, and zero-commission online ordering/booking widgets'],
- ['fire-investigation','1.3','NFPA 921 Origin & Cause & chain of custody','NFPA 921 scientific-method hypothesis matrix, 3D scene evidence pinning, SHA-256 chain of custody, and Daubert/subrogation binders']
+ ['fire-investigation','1.3','NFPA 921 Origin & Cause & chain of custody','NFPA 921 scientific-method hypothesis matrix, 3D scene evidence pinning, SHA-256 chain of custody, and Daubert/subrogation binders'],
+ ['documents','1.1','SHA-256 document vault & local doc bridge','Tamper-evident SHA-256 deduplicated storage, local iOS/Mac/Web document bridge (@openscaffold/doc-bridge), and multi-page OCR extraction'],
+ ['pdf','1.0','Brand-tokenized PDF statement & binder engine','Deterministic react-pdf and pdf-lib rendering for statements, BEOs, tax workpapers, fire origin reports, and board packets'],
+ ['plants','1.2','North America botanical & weed catalog','USDA zone hardiness, toxicity, water/sun care schedules (@openscaffold/plants-ui), and AI leaf/weed diagnosis across Plants, OLA, OLB & Golf'],
+ ['menu','1.1','Multi-tenant menu, recipe & allergen sync','Shared menu engineering, recipe yield scaling, wine/beverage pairing, 86-item sync, and allergen matrices across Restaurant, Caterer & Clubhouse'],
+ ['estimating','1.1','Labor, material, equipment & bid assembly',' Assemblies, crew production rates, margin guardrails, and Good/Better/Best bid takeoffs across Landscape, Service, Architect & Developer'],
+ ['oauth','1.0','Cross-vertical SSO, Passkeys & step-up MFA','OAuth 2.0 + OpenID Connect identity provider, RFC 6238 TOTP step-up authentication, and multi-org role delegation'],
+ ['space-planner','1.0','2D/3D floorplan, seating & room study canvas','Measured room layouts, 3D spatial study views, dining/banquet table seating charts, and furniture/fixture placement']
 ];
 export const routing = {
  saver:{label:'Credit-Saver Mode',description:'ChatGPT + Kimi primary, Claude on-demand',coding:'ChatGPT / OpenAI Codex CLI',research:'Kimi Code CLI',review:'Claude · on demand'},
