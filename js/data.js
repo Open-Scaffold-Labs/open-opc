@@ -69,7 +69,8 @@ export const modules = [
  ['menu','1.1','Multi-tenant menu, recipe & allergen sync','Shared menu engineering, recipe yield scaling, wine/beverage pairing, 86-item sync, and allergen matrices across Restaurant, Caterer & Clubhouse'],
  ['estimating','1.1','Labor, material, equipment & bid assembly',' Assemblies, crew production rates, margin guardrails, and Good/Better/Best bid takeoffs across Landscape, Service, Architect & Developer'],
  ['oauth','1.0','Cross-vertical SSO, Passkeys & step-up MFA','OAuth 2.0 + OpenID Connect identity provider, RFC 6238 TOTP step-up authentication, and multi-org role delegation'],
- ['space-planner','1.0','2D/3D floorplan, seating & room study canvas','Measured room layouts, 3D spatial study views, dining/banquet table seating charts, and furniture/fixture placement']
+ ['space-planner','1.0','2D/3D floorplan, seating & room study canvas','Measured room layouts, 3D spatial study views, dining/banquet table seating charts, and furniture/fixture placement'],
+ ['payment','1.0','White-label Stripe replacement','OpenPay.js Checkout, $0.15 Direct Bank ACH/FedNow, Wholesale IC+ Card Switch, Auto Level 2/3 Enrichment & 2-Min KYB']
 ];
 export const routing = {
  saver:{label:'Credit-Saver Mode',description:'ChatGPT + Kimi primary, Claude on-demand',coding:'ChatGPT / OpenAI Codex CLI',research:'Kimi Code CLI',review:'Claude · on demand'},
