@@ -40,12 +40,29 @@ export const decisions = [
  ['d6','COO','Prioritize fire service import tooling','Open Firehouse · field operations feedback','Operations']
 ].map(([id,officer,title,detail,type])=>({id,officer,title,detail,type,status:'Needs decision'}));
 export const modules = [
- ['books','3.1','One financial truth','Double-Entry Ledger, Trial Balance, Bank Rec, 1099/K-1'],
- ['esign','1.1','Sign with confidence','ESIGN / UETA SHA-256 Tamper-Evident Signing'],
- ['design','2.0','One familiar experience','Top-Bar Look Switcher & 5 WCAG Palettes'],
- ['bot-dashboard','1.4','Keep humans in the loop','Morning Cockpit & Decision Queue'],
- ['ticketing','1.2','Bring communities together','Zero-Markup QR Event & Pass Engine'],
- ['fire-investigation','1.3','Evidence with integrity','NFPA 921 & Evidence Chain-of-Custody']
+ ['billing','2.0','Zero-markup payments & wholesale rails','Stripe Connect direct charges, raw PaymentIntents, Level 2/3 interchange, and $0.25 wholesale ACH across all 17 verticals'],
+ ['scheduling','1.0','Unified calendars, tee sheets & crew dispatch','Multi-resource appointments, operatory chairs, dining tables, 8-minute tee sheets, 24/48/72-hr Kelly shifts, and crew dispatch'],
+ ['books','3.3','Complete 100% QuickBooks replacement','4-Book Parallel Engine (Cash, GAAP Accrual, IRS Tax M-1, 60-Day Shadow Proof), Fixed Assets/MACRS, Inventory/BOM, Payroll & Zero-PBC Audit Portal'],
+ ['kernel','1.0','Core auth, multi-tenant shell & primitives','Shared authentication, workspace tenancy, mobile/desktop responsive shell, data tables, and cross-vertical base primitives'],
+ ['ops','1.2','Single action layer & exact-item approvals','Unified agent action layer, exact-item human approval cards, immutable action audit log, and 3-role Postgres Row-Level Security'],
+ ['design','1.2','Top-bar look switcher & shared tokens','Upper-menu-bar 1-click Look Switcher (Open Scaffold Classic, Clinical Light, Midnight Dark, High Contrast) and responsive tokens'],
+ ['bot-dashboard','1.4','Morning cockpit & partner decision queue','In-app Human + Bot Morning Cockpit and 17-vertical GM Scorecard Command Center'],
+ ['crm','1.0','Leads, pipelines & Good/Better/Best proposals','Unified household/account pipeline, interactive Good/Better/Best proposals, treatment plans, and instant deposit handoff'],
+ ['esign','1.1','Native tamper-evident e-signatures','Native pdf-lib sealer, AES-256-GCM signer tokens, SHA-256 Certificate of Completion, and closed-loop identity verification (no DocuSign tax)'],
+ ['shop','1.1','Retail POS, variant SKUs & loaners','Point-of-sale checkout, variant matrix SKUs, barcode scanning, serialized demo/sample loaners, and member credit books'],
+ ['messaging','1.1','Consent-first SMS, email & push outbox','Transactional SMS/Email/Push outbox with recipient-local quiet hours, automatic STOP opt-out, and send-ledger audit trail'],
+ ['ai','0.3','Multi-model AI & low-credit router','Swappable router across ChatGPT/Codex, Kimi Code, Claude, and Grok with prompt caching, budget caps, and 3-layer markdown brains'],
+ ['import-migrate','1.0','15-minute Day-1 import & shadow verifier','Competitor schema presets (QuickBooks, AppFolio, Toast, Dentrix, ServiceTitan), 1-click rollback, and 60-day $0.00 variance shadow sync'],
+ ['payroll-time','1.0','GPS timeclock, tip pooling & 1099/W-2 bridge','Mobile crew clock-in with GPS geofencing, restaurant tip pooling, stylist commissions, FLSA 7(k) fire shifts, and W-2/1099-NEC ledger bridge'],
+ ['licensing','2.1','Cross-platform annual plan entitlements','Store-agnostic entitlement engine across Web, Apple App Store, and Google Play with 14-day grace and downgrade-never-lockout'],
+ ['tour','1.0','360° virtual tours & 3D spatial pins','Self-hosted 360° equirectangular panorama & 3D walkthrough viewer on Cloudflare R2 ($0 egress) with entity hotspot pinning'],
+ ['vi','1.0','Voice command bar & clinical/field dictation','Deterministic Cmd-K voice command grammar plus floating mic dictation with verbatim-first verification'],
+ ['measure','1.0','GPS lot, floorplan & DXF takeoffs','MeasureDrawer, QuickMeasure, FloorPlanMini, PhotoMeasureMini, DXF CAD parser, and GPS acreage/hydrant/yardage geometry'],
+ ['catering','1.0','Banquet event orders (BEOs) & shotgun outings','Shared Catering, Banquet Event Orders, milestone deposits, and 144-player golf outing + awards banquet engine'],
+ ['gift-cards','1.0','Multi-vertical gift cards & split-tender liability','Gift card issuance, holiday promo bonus campaigns, split-tender POS redemption, and unearned liability sub-ledger'],
+ ['ticketing','1.2','Zero-markup community & venue ticketing','Public-utility ticketing with $0 platform fee, upfront all-in pricing, rotating anti-scalper QR codes, and face-value fan exchange'],
+ ['website','1.0','Instant vertical websites & direct booking SEO','Platform-owned website builder, custom domains, SEO schema, and zero-commission online ordering/booking widgets'],
+ ['fire-investigation','1.3','NFPA 921 Origin & Cause & chain of custody','NFPA 921 scientific-method hypothesis matrix, 3D scene evidence pinning, SHA-256 chain of custody, and Daubert/subrogation binders']
 ];
 export const routing = {
  saver:{label:'Credit-Saver Mode',description:'ChatGPT + Kimi primary, Claude on-demand',coding:'ChatGPT / OpenAI Codex CLI',research:'Kimi Code CLI',review:'Claude · on demand'},
